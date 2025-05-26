@@ -1,0 +1,9 @@
+{
+  "resources":{
+  "includes":[{
+    "pattern":"\\Qio/debezium/connector/mysql/build.version\\E"
+  }
+]},
+  "bundles":[ 
+  ]
+}

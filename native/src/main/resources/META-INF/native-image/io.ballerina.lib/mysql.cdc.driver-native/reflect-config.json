@@ -1,0 +1,42 @@
+[
+{
+  "name":"io.debezium.connector.binlog.metrics.BinlogSnapshotChangeEventSourceMetricsMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"io.debezium.connector.binlog.metrics.BinlogStreamingChangeEventSourceMetricsMXBean",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"io.debezium.connector.mysql.MySqlConnector",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.debezium.connector.mysql.MySqlConnectorTask",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.debezium.connector.mysql.MySqlSnapshotChangeEventSourceMetrics",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"io.debezium.connector.mysql.MySqlSourceInfoStructMaker",
+  "methods":[{"name":"<init>","parameterTypes":[] }]
+},
+{
+  "name":"io.debezium.connector.mysql.MySqlStreamingChangeEventSourceMetrics",
+  "queryAllPublicConstructors":true
+},
+{
+  "name":"io.debezium.connector.mysql.charset.MySqlCharsetRegistry",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"io.debezium.connector.mysql.snapshot.lock.MinimalSnapshotLock",
+  "queryAllPublicMethods":true
+},
+{
+  "name":"io.debezium.connector.mysql.snapshot.query.SelectAllSnapshotQuery",
+  "queryAllPublicMethods":true
+}
+]
