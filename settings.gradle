@@ -33,8 +33,10 @@ plugins {
 rootProject.name = 'module-ballerinax-mysql.cdc.driver'
 
 include ':mysql.cdc.driver-ballerina'
+include ':mysql.cdc.driver-native'
 
 project(':mysql.cdc.driver-ballerina').projectDir = file("ballerina")
+project(':mysql.cdc.driver-native').projectDir = file("native")
 
 gradleEnterprise {
     buildScan {
