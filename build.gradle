@@ -89,6 +89,7 @@ subprojects {
 }
 
 tasks.register('build') {
+    dependsOn(':mysql.cdc.driver-native:build')
     dependsOn(':mysql.cdc.driver-ballerina:build')
 }
 
